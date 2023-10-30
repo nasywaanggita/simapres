@@ -1472,6 +1472,9 @@ video {
 .focus\:shadow-outline-purple:focus {
   box-shadow: 0 0 0 3px rgba(202, 191, 253, 0.45);
 }
+.focus\:shadow-outline-blue:focus {
+  box-shadow: 0 0 0 3px rgba(128, 126, 247, 0.45);
+}
 
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
@@ -1596,4 +1599,11 @@ video {
   .lg\:pl-14 {
     padding-left: 3.5rem /* 56px */;
   }
+}
+
+/* edit profil */
+/* status Verifikasi */
+.border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
 }
